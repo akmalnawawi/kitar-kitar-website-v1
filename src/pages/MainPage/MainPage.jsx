@@ -6,7 +6,6 @@ import Quotes from "./Quotes";
 import Service1 from "./Service1";
 import Service2 from "./Service2";
 import Footer from "./Footer";
-import Flashcard from "../../components/Flashcard";
 
 function MainPage(){
     return (
@@ -25,7 +24,6 @@ function MainPage(){
                 heading="Partnership with Recycler Centers"
                 description="Through our partnerships, we provide a wide variety of choices for sellers and ensure competitive pricing for their recycling waste. By joining forces with KitarKitar, recycler centers gain access to a steady supply of high-quality materials while contributing to a cleaner, greener planet. Together, we're building a sustainable future one partnership at a time."
             />
-            <Flashcard />
             <Footer />
         </>
     );

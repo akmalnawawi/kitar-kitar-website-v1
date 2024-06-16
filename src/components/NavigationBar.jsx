@@ -14,9 +14,6 @@ function NavigationBar() {
         <li className="nav-item">
           <Link to="/BusinessPage" className="nav-link">Find Buyer</Link>
         </li>
-        <li className="nav-item">
-          <Link to="/Login" className="nav-link">I'm Admin</Link>
-        </li>
       </ul>
     </nav>
   );

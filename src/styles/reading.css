@@ -1,0 +1,54 @@
+.rcard-container {
+    align-items: stretch;
+    width: 20rem;
+    border-radius: 1rem;
+    box-shadow: 0px 10px 8px #999;
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+    background-color: white;
+    height: fit-content;
+  }
+  
+  .rcard-img {
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+  }
+  
+  .rcard-title {
+    font-size: 2rem;
+    margin: 0.5rem 5%;
+  }
+  
+  h2{
+    margin: 0.5rem 5%;
+  }
+  .rcard-desc {
+    font-size: 1.25rem;
+    margin: 0.5rem 5%;
+  }
+  
+  .rcard-btn {
+    font-size: 1rem;
+    text-align: center;
+    width: 40%;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    margin: 0.5rem 0.5rem;
+  }
+
+  .read-sub{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 2rem;
+    align-items: stretch;
+  }
+
+  .read-parent{
+    
+  }

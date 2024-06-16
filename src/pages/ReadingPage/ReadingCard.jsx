@@ -1,17 +1,14 @@
 import React from "react";
-import RcardItem from "./RcardItem";
-import { recommendedContent } from "../../Cbf";
+import Readcard from "./Readcard";
 
-function ReadingCard() {
-  return (
-    <>
-      <div className="flashcard-row">
-        {recommendedContent.map((item, index) => (
-          <RcardItem key={index} item={item} />
-        ))}
-      </div>
-    </>
-  );
+function ReadingCard({ recommendedContent }) {
+    return (
+        <div className="read-sub">
+            {recommendedContent.map((item, index) => (
+                <Readcard key={index} item={item} />
+            ))}
+        </div>
+    );
 }
 
 export default ReadingCard;

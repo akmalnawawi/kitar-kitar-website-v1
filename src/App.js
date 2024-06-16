@@ -2,9 +2,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import MainPage from '../src/pages/MainPage/MainPage';
-import BusinessPage from '../src/pages/BusinessPage/BusinessPage';
 import ReadingPage from '../src/pages/ReadingPage/ReadingPage';
 import NavigationBar from '../src/components/NavigationBar';
+import BusinessPage from './pages/BusinessPage/BusinessPage';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
         <Routes>
           <Route path="/" element={<MainPage />} />
           <Route path="/ReadingPage" element={<ReadingPage />} />
-          <Route path="/business" element={<BusinessPage />} />
+          <Route path="/BusinessPage" element={<BusinessPage />} />
         </Routes>
       </div>
     </Router>
