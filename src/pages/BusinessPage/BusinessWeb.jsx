@@ -1,15 +1,16 @@
+// BusinessWeb.jsx
+
 import React from "react";
 import "../../styles/business.css";
 
-function BusinessWeb () {
-
+function BusinessWeb({ company }) {
     return (
         <div className="bcard-web">
             <center>
-                <p>Company A</p>
-                <button onClick={() => {
-                    window.open('https:ufuture.uitm.edu.my', '_blank')
-                }}>Visit Website</button>
+                <p>{company.companyName}</p>
+                <button onClick={() => window.open(company.companyWebsite, '_blank')}>
+                    Visit Website
+                </button>
             </center>
         </div>
     );

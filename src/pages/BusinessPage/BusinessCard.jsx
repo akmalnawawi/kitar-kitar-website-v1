@@ -1,20 +1,15 @@
+// BusinessCard.jsx
+
 import React from "react";
 import "../../styles/business.css";
 import BusinessItem from "./BusinessItem";
 
-function BusinessCard () {
-
+function BusinessCard({ companies }) {
     return (
         <div className="bcard-container">
-            <BusinessItem />
-            <BusinessItem />
-            <BusinessItem />
-            <BusinessItem />
-            <BusinessItem />
-            <BusinessItem />
-            <BusinessItem />
-            <BusinessItem />
-
+            {companies.map((company, index) => (
+                <BusinessItem key={index} company={company} />
+            ))}
         </div>
     );
 }

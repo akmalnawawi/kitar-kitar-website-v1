@@ -24,11 +24,12 @@
     margin: 0.5rem 5%;
   }
   .rcard-desc {
+    height: 200px;
     font-size: 1.25rem;
     margin: 0.5rem 5%;
   }
   
-  .rcard-btn {
+  /* .rcard-btn {
     font-size: 1rem;
     text-align: center;
     width: 40%;
@@ -38,7 +39,7 @@
     color: white;
     text-decoration: none;
     margin: 0.5rem 0.5rem;
-  }
+  } */
 
   .read-sub{
     display: flex;
@@ -47,8 +48,4 @@
     justify-content: center;
     margin-top: 2rem;
     align-items: stretch;
-  }
-
-  .read-parent{
-    
   }
